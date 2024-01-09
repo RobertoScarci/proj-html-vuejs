@@ -1,7 +1,8 @@
 <script>
- import AppHeader from './components/AppHeader.vue';
+  import AppHeader from './components/AppHeader.vue';
   import AppMain from './components/AppMain.vue';
   import AppFooter from './components/AppFooter.vue';
+  import AppPlane from './components/AppPlane.vue';
   
   export default {
     name: "AppVue",
@@ -9,6 +10,7 @@
       AppHeader,
       AppMain,
       AppFooter,
+      AppPlane
     }
   }
 </script>
@@ -16,6 +18,7 @@
 <template>
   <AppHeader/>
   <AppMain/>
+  <AppPlane/>
   <AppFooter/>
 </template>
 
