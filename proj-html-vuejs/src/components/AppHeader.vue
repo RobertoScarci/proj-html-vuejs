@@ -130,6 +130,12 @@ img{
     margin-left: .8rem;
 }
 
+button{
+    font-size: .9rem;
+    padding: .5rem;
+    width: 8.5rem;
+}
+
 .col-12 ul{
     padding-top: 2rem;
     width: 100%;
@@ -137,6 +143,7 @@ img{
 
 .logos{
     width: 80%;
+    padding-bottom: 2rem;
 }
 
 p{
