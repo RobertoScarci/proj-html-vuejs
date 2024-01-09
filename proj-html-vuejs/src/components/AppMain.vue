@@ -115,6 +115,35 @@
                 </div>
             </div>
         </div>
+        <div class="container tools">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class=" pt-4 pb-4">
+                        Build tools and extensive documention
+                    </h1>
+                    <p class="pb-4">
+                        You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.
+                    </p>
+                    <ul>
+                        <li>
+                            Digital Marketing Solutions for Tomorrow
+                        </li>
+                        <li>
+                            Our Talented & Experienced Marketing Agency
+                        </li>
+                        <li>
+                            Create your own skins to match your brand
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary mt-4 fs-5">
+                        Read More
+                    </button>
+                </div>
+                <div class="col-6">
+                    <img src="../assets/1.png" alt="">
+                </div>
+            </div>
+        </div>
     </main>
 </template>
 
@@ -191,6 +220,31 @@ li.nav-item:hover{
 
 span.check span.text-success:last-child{
     margin-left: 2rem;
+}
+
+.tools{
+    width: 70%;
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.tools img{
+    width: 100%;
+}
+
+.tools p,
+.tools li {
+    color: $text-color;
+}
+
+.tools h1{
+    font-size: 1.8rem;
+}
+
+ul,
+h1{
+    list-style-type: none;
+    line-height: 44px;
 }
 
 </style>
