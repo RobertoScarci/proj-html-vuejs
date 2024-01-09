@@ -61,7 +61,7 @@
                                 <div class="col-lg-12">
                                     <ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded bg-soft-light" id="pills-tab" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                            <a class="nav-link nav-link-alt rounded active" id="pills-npm-tab" data-bs-toggle="pill" href="#pills-npm" role="tab" aria-controls="pills-npm" aria-selected="true">
+                                            <a class="nav-link nav-link-alt rounded " id="pills-npm-tab" data-bs-toggle="pill" href="#pills-npm" role="tab" aria-controls="pills-npm" aria-selected="true">
                                                 <div class="text-center">
                                                     <h5 class="title fw-normal mb-0 text-white">npm</h5>
                                                 </div>
@@ -104,7 +104,14 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                                <span class="check">
+                                    <span class="text-success">$</span> Organize your Data  <span class="text-success">$</span> Work with any team
+                                </span>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,12 +163,34 @@ span{
 .nav-bg{
     background-color: #3C4858;
     margin: 0 4rem;
-    margin-bottom: 3rem;
 }
 
-li.nav-item{
+ul.nav-pills{
     background-color: #575f69;
     margin-top: .5rem;
+}
+
+li.nav-item:hover{
+    background-color: #434951;
+    border-radius: 8px;
+}
+
+.my_active{
+    background-color: #3C4858;
+    border-radius: 10px;
+}
+
+.check{
+    color: $text-color;
+    font-size: .8rem;
+    text-align: left;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+span.check span.text-success:last-child{
+    margin-left: 2rem;
 }
 
 </style>
