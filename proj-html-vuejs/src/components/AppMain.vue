@@ -247,4 +247,8 @@ h1{
     line-height: 44px;
 }
 
+button{
+    background-color: $secondary-color;
+}
+
 </style>

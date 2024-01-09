@@ -137,5 +137,8 @@ span.plan{
     border: .7px solid grey;
 }
 
+button{
+    background-color: $secondary-color;
+}
 
 </style>
