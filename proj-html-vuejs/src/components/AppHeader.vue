@@ -21,9 +21,9 @@
         <div class="container jumbo">
             <div class="row">
                 <div class="col-6 pt-5">
-                <p class="pb-3">
+                <span class=" px-2 d-inline-block bg-soft-primary mb-0 text-primary rounded-lg plan">
                     Develoment
-                </p>
+                </span>
                 <h1 class="">
                     A Complete Developer Toolset
                 </h1>
@@ -155,6 +155,13 @@ h1{
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
+}
+
+span.plan{
+    background-color: #2F55D41A;
+    border-radius: 50px;
+    border: .7px solid grey;
+    font-size: .7rem;
 }
 
 </style>
