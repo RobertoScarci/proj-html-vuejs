@@ -5,8 +5,8 @@
                 <div class="col-4">
                    <img src="../assets/logo-dark.png" alt="Land's logo">
                 </div>
-            <div class="col-4 pr-2">
-                <ul>
+            <div class="col-4">
+                <ul class="">
                     <li>HOME</li>
                     <li>LANDING</li>
                     <li>PAGES</li>
@@ -101,7 +101,7 @@ ul{
 
 img{
     width: calc(100% / 4);
-    text-align: center;
+    text-align: left;
     vertical-align: top;
 }
 
