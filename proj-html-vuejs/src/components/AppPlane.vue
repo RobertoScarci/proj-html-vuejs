@@ -107,7 +107,7 @@
                             <div class="subcribe-form mt-4 pt-2">
                                 <form>
                                     <input type="email" id="email2" name="email" class="rounded-pill border" placeholder="E-mail :" style="width: 20rem; height: 2.8rem;">
-                                    <button type="submit" class="btn btn-pills btn-primary">Get Started</button>
+                                    <button type="submit" class="btn btn-pills btn-primary" style="height: 2.8rem;">Get Started</button>
                                 </form>
                             </div>
                         </div>
