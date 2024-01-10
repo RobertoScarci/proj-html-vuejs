@@ -2,10 +2,10 @@
     <header class="pt-3 pb-2">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 pt-2">
                    <img src="../assets/logo-dark.png" alt="Land's logo">
                 </div>
-            <div class="col-4">
+            <div class="col-4 pt-2">
                 <ul class="">
                     <li>HOME</li>
                     <li>LANDING</li>
@@ -14,7 +14,10 @@
                 </ul>
             </div>
             <div class="settings col-4">
-                Search
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-brands fa-github plan"></i>
+                <i class="fa-regular fa-chart-bar plan"></i>
+                <i class="fa-solid fa-user-large plan"></i>
             </div>
             </div>
         </div>
@@ -166,6 +169,27 @@ span.plan{
     border: .1px solid rgb(200, 198, 198);
     font-size: .7rem;
     color: $secondary-color;
+}
+
+i{
+    margin: 0 .8rem;
+    font-size: 1.2rem;
+}
+
+i.plan{
+    margin: 0 .2rem;
+    padding: .6rem;
+    color: $text-color;
+    background-color: #2F55D41A;
+    border-radius: 10px;
+    border: .1px solid rgb(200, 198, 198);
+    color: $secondary-color;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+i.plan:hover{
+    background-color: $secondary-color;
+    color: white;
 }
 
 </style>
