@@ -136,9 +136,12 @@ button{
     width: 8.5rem;
 }
 
+.btn-primary{
+    background-color: $secondary-color;
+}
+
 .col-12 ul{
     padding-top: 2rem;
-    width: 100%;
 }
 
 .logos{
@@ -160,8 +163,9 @@ h1{
 span.plan{
     background-color: #2F55D41A;
     border-radius: 50px;
-    border: .7px solid grey;
+    border: .1px solid rgb(200, 198, 198);
     font-size: .7rem;
+    color: $secondary-color;
 }
 
 </style>
