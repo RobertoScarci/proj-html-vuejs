@@ -19,7 +19,7 @@
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
                         <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
                             <div class="icons text-start">
-                                <i class="uil uil-layer-group rounded h3 mb-0"></i>
+                                <i class="fa-solid fa-layer-group logos"></i>
                             </div>
                             <div class="card-body p-0 mt-4">                                            
                                 <h5> Modular </h5>
@@ -33,7 +33,7 @@
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
                         <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
                             <div class="icons text-start">
-                                <i class="uil uil-airplay rounded h3 mb-0"></i>
+                                <i class="fa-solid fa-desktop logos"></i>
                             </div>
                             <div class="card-body p-0 mt-4">                                            
                                 <h5> Responsive </h5>
@@ -47,7 +47,7 @@
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
                         <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
                             <div class="icons text-start">
-                                <i class="uil uil-focus-target rounded h3 mb-0"></i>
+                                <i class="fa-solid fa-arrows-to-circle logos"></i>
                             </div>
                             <div class="card-body p-0 mt-4">                                            
                                 <h5> Customizable </h5>
@@ -61,7 +61,7 @@
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
                         <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
                             <div class="icons text-start">
-                                <i class="uil uil-expand-arrows rounded h3 mb-0"></i>
+                                <i class="fa-solid fa-maximize logos"></i>
                             </div>
                             <div class="card-body p-0 mt-4">                                            
                                 <h5> Scalable </h5>
@@ -171,7 +171,7 @@
                         </li>
                     </ul>
                     <button class="btn btn-primary mt-4 fs-5">
-                        Read More
+                        Read More <i class="fa-solid fa-arrow-right"></i>
                     </button>
                 </div>
                 <div class="col-6">
@@ -203,6 +203,14 @@
 .first p{
     padding-top: 2rem;
     color: $text-color;
+}
+
+.first i.logos{
+    font-size: 1.5rem;
+    color: $secondary-color;
+    background-color: rgb(239, 236, 236);
+    padding: 1.3rem;
+    border-radius: 5px;
 }
 
 span{
@@ -294,6 +302,11 @@ i{
     color: blue;
     font-size: 1rem;
     margin-right: .4rem;
+}
+
+.fa-arrow-right{
+    font-size: 1.2rem;
+    padding-left: .4rem;
 }
 
 .green{
