@@ -24,11 +24,11 @@
                                 <p class="pb-4">All the basics for businesses that are just getting started.</p>
 
                                 <ul class="list-unstyled pt-3 border-top">
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Full Access</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Source Files</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>1 Domain Free</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
                                 </ul>
 
                                 <div class="mt-4">
@@ -50,11 +50,11 @@
                                 <p class="pb-4">Better for growing businesses that want more customers.</p>
 
                                 <ul class="list-unstyled pt-3 border-top">
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Full Access</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Source Files</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>1 Domain Free</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
                                 </ul>
 
                                 <div class="mt-4">
@@ -76,11 +76,11 @@
                                 <p class="pb-4">Advanced features for pros who need more customization.</p>
 
                                 <ul class="list-unstyled pt-3 border-top">
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
-                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Full Access</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Source Files</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>1 Domain Free</li>
+                                    <li class="h6 mb-0"><span class="icon h5 me-2"><i class="fa-regular fa-circle-check"></i></span>Enhanced Security</li>
                                 </ul>
 
                                 <div class="mt-4">
@@ -173,6 +173,10 @@ input{
 .col-12 p{
     padding: 0 22rem;
     text-align: center;
+}
+
+.fa-circle-check{
+    font-size: 1rem;
 }
 
 </style>
