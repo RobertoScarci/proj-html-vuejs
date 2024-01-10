@@ -1,5 +1,8 @@
 <template>
     <header class="pt-3 pb-2">
+        <div class="setting">
+            <i class="fa-solid fa-gear"></i>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-4 pt-2">
@@ -7,7 +10,7 @@
                 </div>
             <div class="col-4 pt-2">
                 <ul class="navigation">
-                    <li class="">HOME</li><i class="fa-solid"></i>
+                    <li class="active">HOME</li><i class="fa-solid"></i>
                     <li>LANDING</li><i class="fa-solid fa-chevron-down"></i>
                     <li>PAGES</li><i class="fa-solid fa-chevron-down"></i>
                     <li>DOCS</li><i class="fa-solid fa-chevron-down"></i>
@@ -99,7 +102,7 @@ ul{
 }
 
 .col-4 li{
-    margin-left: 1.8rem;
+   margin-left: 1rem;
 }
 
 .col-4 li:hover{
@@ -113,7 +116,7 @@ img{
 }
 
 .settings{
-    padding-right: 0;
+    padding-right: 4.5rem;
     justify-content: center;
 }
 
@@ -143,6 +146,10 @@ button{
     width: 8.5rem;
 }
 
+.active{
+    color: $secondary-color;
+}
+
 .btn-primary{
     background-color: $secondary-color;
 }
@@ -162,6 +169,7 @@ p{
 }
 
 h1{
+    padding-right: 4rem;
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.5;
@@ -206,5 +214,25 @@ i.plan:hover{
 li img{
     width: 50%;
 }
+
+.setting{
+    margin-top: .5rem;
+    height: 30px;
+    width: 45px;
+    position: fixed;
+    top: 80px;
+    left: -10px;
+    color: $secondary-color;
+    background-color: white;
+    padding: .31rem;
+    border-radius: 10px;
+    border: .5px solid rgb(210, 209, 209);
+}
+
+.setting:hover{
+    background-color: $secondary-color;
+    color: white;
+}
+
 
 </style>

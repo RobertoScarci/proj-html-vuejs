@@ -15,7 +15,7 @@
             <!-- Plane offer -->
             <div class="row plane pt-3">
                 <div class="col-4 mt-4 pt-2">
-                        <div class="card pricing pricing-primary business-rate border-0 p-4 rounded-md shadow">
+                        <div class="card pricing pricing-primary business-rate p-4 rounded-md">
                             <div class="card-body p-0">
                                 <span class="py-2 px-4 d-inline-block bg-soft-primary h6 mb-0 text-primary rounded-lg plan">Basic</span>
                                 <h2 class="fw-bold mb-1 mt-4">$9.00</h2>
@@ -41,7 +41,7 @@
                         </div>
                     </div>
                     <div class="col-4 mt-4 pt-2">
-                        <div class="card pricing pricing-primary business-rate border-0 p-4 rounded-md shadow">
+                        <div class="card card-special pricing pricing-primary business-rate p-4 rounded-md">
                             <div class="card-body p-0">
                                 <span class=" py-2 px-4 d-inline-block bg-soft-primary h6 mb-0 text-primary rounded-lg plan">Business</span>
                                 <h2 class="fw-bold mb-1 mt-4">$39.00</h2>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="col-4 mt-4 pt-2">
-                        <div class="card pricing pricing-primary business-rate border-0 p-4 rounded-md shadow">
+                        <div class="card pricing pricing-primary business-rate  p-4 rounded-md">
                             <div class="card-body p-0">
                                 <span class="py-2 px-4 d-inline-block bg-soft-primary h6 mb-0 text-primary rounded-lg plan">Enterprise</span>
                                 <h2 class="fw-bold mb-1 mt-4">$79.00</h2>
@@ -106,8 +106,10 @@
                             
                             <div class="subcribe-form mt-4 pt-2">
                                 <form>
-                                    <input type="email" id="email2" name="email" class="rounded-pill border" placeholder="E-mail :" style="width: 20rem; height: 2.8rem;">
-                                    <button type="submit" class="btn btn-pills btn-primary" style="height: 2.8rem;">Get Started</button>
+                                    <input type="email" id="email2" name="email" class="rounded-pill border" placeholder="E-mail :" style="width: 30rem; height: 2.8rem;">
+                                    <div>
+                                        <button type="submit" class="btn btn-pills btn-primary relative" style="height: 2.5rem;">Get Started</button>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -167,6 +169,13 @@ button{
 
 input{
     padding-left: 1rem;
+    position: relative;
+}
+
+.relative{
+    position: absolute;
+    top: 3678px;
+    right: 483px;
 }
 
 .section-title p,
@@ -177,6 +186,20 @@ input{
 
 .fa-circle-check{
     font-size: 1rem;
+}
+
+.card-special{
+    position: relative;
+}
+
+div.card{
+    border: 1px solid rgb(228, 228, 228);
+    border-bottom: 2px solid black;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-bottom: 3px solid blue;
 }
 
 </style>

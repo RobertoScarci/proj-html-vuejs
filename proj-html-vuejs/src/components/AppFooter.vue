@@ -81,7 +81,7 @@
                 <div class="container text-center">
                     <div class="row align-items-center">
                         <div class="col-6 start">
-                            <p class="">© 2024 Landrick. Design with  <i class="fa-solid fa-heart"></i>by Shreethemes.</p>
+                            <p class="">© 2020 Landrick. Design with  <i class="fa-solid fa-heart"></i>by Shreethemes.</p>
                         </div>
 
                         <div class="col-6">

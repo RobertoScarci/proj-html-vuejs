@@ -132,7 +132,7 @@
                                 <div class="col-12 mt-2">
                                     <div class="tab-content" id="pills-tabContent">
                                         <div class="tab-pane fade show active" id="pills-npm" role="tabpanel" aria-labelledby="pills-npm-tab">
-                                            <p class="fw-bold mb-0"><span class="text-success">$</span> npm install <span class="text-success">-g</span> claps.js</p>
+                                            <p class="fw-bold mb-0"><span class="text-suc">$</span> npm install <span class="text-suc">-g</span> claps.js</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,6 +150,7 @@
         </div>
         <!-- End Display -->
 
+        <!-- Tools -->
         <div class="container tools">
             <div class="row">
                 <div class="col-6">
@@ -170,7 +171,7 @@
                             <i class="fa-regular fa-circle-check"></i>Create your own skins to match your brand
                         </li>
                     </ul>
-                    <button class="btn btn-primary mt-4 fs-5">
+                    <button class="btn btn-primary mt-4 fs-6">
                         Read More <i class="fa-solid fa-arrow-right"></i>
                     </button>
                 </div>
@@ -179,6 +180,7 @@
                 </div>
             </div>
         </div>
+        <!-- end Tools -->
     </main>
 </template>
 
@@ -208,7 +210,7 @@
 .first i.logos{
     font-size: 1.5rem;
     color: $secondary-color;
-    background-color: rgb(239, 236, 236);
+    background-color: rgb(236, 235, 255);
     padding: 1.3rem;
     border-radius: 5px;
 }
@@ -225,6 +227,10 @@ span{
 
 .text-centered{
     padding: 0 8rem;
+}
+
+a{
+    text-decoration: none;
 }
 
 .tab-content p{
@@ -310,9 +316,13 @@ i{
 }
 
 .green{
-    color: green;
+    color: rgb(7, 186, 7);
     margin-left: .3rem;
     margin-right: .1rem;
+}
+
+.text-suc{
+    color: rgb(3, 169, 3);
 }
 
 .green:last-child{
