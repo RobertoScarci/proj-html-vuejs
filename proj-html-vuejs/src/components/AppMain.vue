@@ -17,28 +17,28 @@
                 <div class="card col-3">
                     <div class="card-body">
                        <h5 class="card-title">Modular</h5>
-                        <p class="card-text">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                         <span href="" class="">Read More</span>
                     </div>
                 </div>
                 <div class="card col-3">
                     <div class="card-body">
                        <h5 class="card-title">Responsive</h5>
-                        <p class="card-text">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                         <span href="" class="">Read More</span>
                     </div>
                 </div>
                 <div class="card col-3">
                     <div class="card-body">
                        <h5 class="card-title">Customizable</h5>
-                        <p class="card-text">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                         <span href="" class="">Read More</span>
                     </div>
                 </div>
                 <div class="card col-3">
                     <div class="card-body">
                        <h5 class="card-title">Scalable</h5>
-                        <p class="card-text">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                         <span href="" class="">Read More</span>
                     </div>
                 </div>
