@@ -2,7 +2,7 @@
     <main>
         <div class="container first">
             <div class="row">
-                <div class="col-8">
+                <div class="col-8 pt-4">
                     <h1>
                         Key Features
                     </h1>
@@ -12,38 +12,71 @@
                 </div>
             </div>
         </div>
+
+        <!-- Card -->
         <div class="container first">
-            <div class="row">
-                <div class="card col-3">
-                    <div class="card-body">
-                       <h5 class="card-title">Modular</h5>
-                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                        <span href="" class="">Read More</span>
+            <div class="row align-items-center pb-5">
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                            <div class="icons text-start">
+                                <i class="uil uil-layer-group rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <h5> Modular </h5>
+                                <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                                <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                                <i class="uil uil-layer-group full-img"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                            <div class="icons text-start">
+                                <i class="uil uil-airplay rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <h5> Responsive </h5>
+                                <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                                <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                                <i class="uil uil-airplay full-img"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                            <div class="icons text-start">
+                                <i class="uil uil-focus-target rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <h5> Customizable </h5>
+                                <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                                <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                                <i class="uil uil-focus-target full-img"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2">
+                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                            <div class="icons text-start">
+                                <i class="uil uil-expand-arrows rounded h3 mb-0"></i>
+                            </div>
+                            <div class="card-body p-0 mt-4">                                            
+                                <h5> Scalable </h5>
+                                <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
+                                <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
+                                <i class="uil uil-expand-arrows full-img"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-3">
-                    <div class="card-body">
-                       <h5 class="card-title">Responsive</h5>
-                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                        <span href="" class="">Read More</span>
-                    </div>
-                </div>
-                <div class="card col-3">
-                    <div class="card-body">
-                       <h5 class="card-title">Customizable</h5>
-                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                        <span href="" class="">Read More</span>
-                    </div>
-                </div>
-                <div class="card col-3">
-                    <div class="card-body">
-                       <h5 class="card-title">Scalable</h5>
-                        <p class="card-text pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
-                        <span href="" class="">Read More</span>
-                    </div>
-                </div>
-            </div>
         </div>
+        <!-- End Card -->
+
+        
+        <!-- Display -->
         <div class="container text-center pt-9 first">
             <div class="row">
                 <div class="col-12">
@@ -108,13 +141,15 @@
                     <div class="container">
                         <div class="row">
                                 <span class="check">
-                                    <span class="text-success">$</span> Organize your Data  <span class="text-success">$</span> Work with any team
+                                    <i class="fa-regular fa-circle-check green"></i> Organize your Data  <i class="fa-regular fa-circle-check green"></i> Work with any team
                                 </span>
                             </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- End Display -->
+
         <div class="container tools">
             <div class="row">
                 <div class="col-6">
@@ -126,13 +161,13 @@
                     </p>
                     <ul>
                         <li>
-                            Digital Marketing Solutions for Tomorrow
+                            <i class="fa-regular fa-circle-check"></i>Digital Marketing Solutions for Tomorrow
                         </li>
                         <li>
-                            Our Talented & Experienced Marketing Agency
+                            <i class="fa-regular fa-circle-check"></i>Our Talented & Experienced Marketing Agency
                         </li>
                         <li>
-                            Create your own skins to match your brand
+                            <i class="fa-regular fa-circle-check"></i>Create your own skins to match your brand
                         </li>
                     </ul>
                     <button class="btn btn-primary mt-4 fs-5">
@@ -249,6 +284,26 @@ h1{
 
 button{
     background-color: $secondary-color;
+}
+
+i{
+    font-size: .7rem;
+}
+
+.fa-circle-check{
+    color: blue;
+    font-size: 1rem;
+    margin-right: .4rem;
+}
+
+.green{
+    color: green;
+    margin-left: .3rem;
+    margin-right: .1rem;
+}
+
+.green:last-child{
+    padding-left: 3rem;
 }
 
 </style>
