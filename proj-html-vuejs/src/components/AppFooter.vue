@@ -26,25 +26,25 @@
                                 <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                     <h5 class="footer-head">Company</h5>
                                     <ul class="list-unstyled footer-list mt-4">
-                                        <li><i class="uil uil-angle-right-b me-1"></i> About us</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Services</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Team</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Pricing</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Project</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Careers</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Blog</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Login</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> About us</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Services</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Team</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Pricing</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Project</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Careers</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Blog</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Login</li>
                                     </ul>
                                 </div>
                         
                                 <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                     <h5 class="footer-head">Usefull Links</h5>
                                     <ul class="list-unstyled footer-list mt-4">
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Terms of Services</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Privacy Policy</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Documentation</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Changelog</li>
-                                        <li><i class="uil uil-angle-right-b me-1"></i> Components</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Terms of Services</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Privacy Policy</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Documentation</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Changelog</li>
+                                        <li><i class="fa-solid fa-chevron-right"></i> Components</li>
                                     </ul>
                                 </div>
     
@@ -84,10 +84,10 @@
                 <div class="container text-center">
                     <div class="row align-items-center">
                         <div class="col-6 start">
-                            <p class="">© 2024 Landrick. Design with <i class=""></i> by  Shreethemes.</p>
+                            <p class="">© 2024 Landrick. Design with  <i class="fa-solid fa-heart"></i>by Shreethemes.</p>
                         </div>
 
-                        <div class="col-6 mt-4 pt-2">
+                        <div class="col-6">
                             <ul class="list-unstyled text-sm-end mb-0">
                                 <li class="list-inline-item"><a href=""><img src="../assets/american-ex.png" class="avatar avatar-ex-sm" title="American Express" alt=""></a></li>
                                 <li class="list-inline-item"><a href=""><img src="../assets/discover.png" class="avatar avatar-ex-sm" title="Discover" alt=""></a></li>
@@ -174,6 +174,17 @@ div > input{
 .start{
     display: flex;
     justify-content: flex-start;
+}
+
+i{
+    margin-right: .5rem;
+    padding-bottom: .3rem;
+    font-size: .6rem;
+}
+
+.fa-heart{
+    color: red;
+    font-size: 1rem;
 }
 
 </style>
