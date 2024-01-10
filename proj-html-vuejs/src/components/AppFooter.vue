@@ -12,14 +12,11 @@
                                         <img src="../assets/logo-light.png" height="24" alt="">
                                     </a>
                                     <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
-                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
-                                        <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
-                                        <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                                    <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                        <li class="list-inline-item mb-0"><a href="" target="_blank" class="rounded"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li class="list-inline-item mb-0"><a href="" target="_blank" class="rounded"><i class="fa-brands fa-instagram"></i></a></li>
+                                        <li class="list-inline-item mb-0"><a href="" target="_blank" class="rounded"><i class="fa-brands fa-twitter"></i></a></li>
+                                        <li class="list-inline-item mb-0"><a href="" target="_blank" class="rounded"><i class="fa-brands fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
                         
@@ -57,7 +54,7 @@
                                                 <div class="foot-subscribe mb-3">
                                                     <label class="form-label">Write your email <span class="text-danger">*</span></label>
                                                     <div class="pt-2">
-                                                        <input type="email" name="email" id="emailsubscribe" class="form-control rounded" placeholder="Your email : " required="">
+                                                        <input type="email" name="email" id="emailsubscribe" class="section rounded" placeholder="Your email : " required="">
                                                     </div>
                                                 </div>
                                             </div>
@@ -151,9 +148,12 @@ hr{
     color: grey;
 }
 
-input.form-control{
+input.section{
     background-color: #242e4a;
     border: none;
+    font-size: 1rem;
+    padding: .6rem;
+    width: 100%;
 }
 
 div > input{
@@ -185,6 +185,18 @@ i{
 .fa-heart{
     color: red;
     font-size: 1rem;
+}
+
+.social i{
+    color: $text-color;
+    padding: .3rem;
+    font-size: 1.2rem;
+    border: .8px solid rgb(156, 156, 156);
+    border-radius: 5px;
+}
+
+.social i:hover{
+    background-color: white;
 }
 
 </style>
