@@ -17,7 +17,7 @@
         <div class="container first">
             <div class="row align-items-center pb-5">
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                        <div class="card features feature-primary feature-clean course-feature p-4 overflow-hidden">
                             <div class="icons text-start">
                                 <i class="fa-solid fa-layer-group logos"></i>
                             </div>
@@ -25,13 +25,13 @@
                                 <h5> Modular </h5>
                                 <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                                 <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
-                                <i class="uil uil-layer-group full-img"></i>
+                                <i class="fa-solid fa-layer-group none"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                        <div class="card features feature-primary feature-clean course-feature p-4 overflow-hidden">
                             <div class="icons text-start">
                                 <i class="fa-solid fa-desktop logos"></i>
                             </div>
@@ -39,13 +39,13 @@
                                 <h5> Responsive </h5>
                                 <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                                 <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
-                                <i class="uil uil-airplay full-img"></i>
+                                <i class="fa-solid fa-desktop none"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                        <div class="card features feature-primary feature-clean course-feature p-4 overflow-hidden">
                             <div class="icons text-start">
                                 <i class="fa-solid fa-arrows-to-circle logos"></i>
                             </div>
@@ -53,13 +53,13 @@
                                 <h5> Customizable </h5>
                                 <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                                 <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
-                                <i class="uil uil-focus-target full-img"></i>
+                                <i class="fa-solid fa-arrows-to-circle none"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6 mt-4 pt-2">
-                        <div class="card border-0 features feature-primary feature-clean course-feature p-4 overflow-hidden shadow">
+                        <div class="card features feature-primary feature-clean course-feature p-4 overflow-hidden">
                             <div class="icons text-start">
                                 <i class="fa-solid fa-maximize logos"></i>
                             </div>
@@ -67,7 +67,7 @@
                                 <h5> Scalable </h5>
                                 <p class="text-muted mt-2 pb-3">Composed in a pseudo-Latin language which more or less corresponds.</p>
                                 <a href="" class="read-more">Read More <i class="fa-solid fa-chevron-right"></i></a>
-                                <i class="uil uil-expand-arrows full-img"></i>
+                                <i class="fa-solid fa-maximize none"></i>
                             </div>
                         </div>
                     </div>
@@ -172,7 +172,7 @@
                         </li>
                     </ul>
                     <button class="btn btn-primary mt-4 fs-6">
-                        Read More <i class="fa-solid fa-arrow-right"></i>
+                        Read More <i class="fa-solid fa-arrow-right pt-1"></i>
                     </button>
                 </div>
                 <div class="col-6">
@@ -327,6 +327,27 @@ i{
 
 .green:last-child{
     padding-left: 3rem;
+}
+
+.none{
+    position: absolute;
+    top: 80px;
+    right: -30px;
+    font-size: 9.5rem;
+    overflow: hidden;
+    color: rgb(201, 200, 200, .3);
+    display: none;
+}
+
+.card{
+    border: .7px solid rgb(198, 198, 198);
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    .none{
+        display: block;
+    }
 }
 
 </style>
