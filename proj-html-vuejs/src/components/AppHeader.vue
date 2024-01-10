@@ -6,11 +6,11 @@
                    <img src="../assets/logo-dark.png" alt="Land's logo">
                 </div>
             <div class="col-4 pt-2">
-                <ul class="">
-                    <li>HOME</li>
-                    <li>LANDING</li>
-                    <li>PAGES</li>
-                    <li>DOCS</li>
+                <ul class="navigation">
+                    <li class="">HOME</li><i class="fa-solid"></i>
+                    <li>LANDING</li><i class="fa-solid fa-chevron-down"></i>
+                    <li>PAGES</li><i class="fa-solid fa-chevron-down"></i>
+                    <li>DOCS</li><i class="fa-solid fa-chevron-down"></i>
                 </ul>
             </div>
             <div class="settings col-4">
@@ -57,19 +57,19 @@
                             <img src="../assets/amazon.svg" alt="Amazon logo">
                         </li>
                         <li>
-                            <img src="../assets/google.svg" alt="Amazon logo">
+                            <img src="../assets/google.svg" alt="google logo">
                         </li>
                         <li>
-                            <img src="../assets/lenovo.svg" alt="Amazon logo">
+                            <img src="../assets/lenovo.svg" alt="lenovo logo">
                         </li>
                         <li>
-                            <img src="../assets/paypal.svg" alt="Amazon logo">
+                            <img src="../assets/paypal.svg" alt="paypal logo">
                         </li>
                         <li>
-                            <img src="../assets/shopify.svg" alt="Amazon logo">
+                            <img src="../assets/shopify.svg" alt="shopify logo">
                         </li>
                         <li>
-                            <img src="../assets/spotify.svg" alt="Amazon logo">
+                            <img src="../assets/spotify.svg" alt="spotify logo">
                         </li>
                     </ul>
                 </div>
@@ -99,7 +99,11 @@ ul{
 }
 
 .col-4 li{
-    margin-left: 3.5rem;
+    margin-left: 1.8rem;
+}
+
+.col-4 li:hover{
+    color: $secondary-color;
 }
 
 img{
@@ -126,7 +130,7 @@ img{
 }
 
 .jumbo img{
-    width: 90%;
+    width: 100%;
 }
 
 .btn-outline-primary{
@@ -148,7 +152,7 @@ button{
 }
 
 .logos{
-    width: 80%;
+    width: 75%;
     padding-bottom: 2rem;
 }
 
@@ -190,6 +194,17 @@ i.plan{
 i.plan:hover{
     background-color: $secondary-color;
     color: white;
+}
+
+
+.fa-chevron-down{
+    font-size: .8rem;
+    padding-top: .2rem;
+    margin-right: 1rem;
+}
+
+li img{
+    width: 50%;
 }
 
 </style>
